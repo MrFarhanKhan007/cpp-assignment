@@ -1,0 +1,40 @@
+LIST OF PRACTICALS
+
+1.	Define a class Shape whose attributes are radius, length and width calculate the perimeter of the rectangle and circle. Use constructors and destructors.
+
+2.	Create a class Person which includes: character array name of size 64, age in numeric, character array address of size 64, and total salary in real numbers (divide salary in different components, if required). Make an array of objects of class Person of size 10. 
+(a)	Write inline function that obtains the youngest and eldest age of a person from a class person using arrays.
+(b)	Write a program to develop the salary slip and display result by using constructors.
+3.	Write a program to find the area (function name AREA) of circle, rectangle and triangle by Function overloading concept.
+
+4.	a)   Write a program to swap two numbers (create two classes) by using Friend function.
+b)	Write a program to create two classes DistM and DistF which store the values of distance. DistM stores distance in meters and centimetres and DistF stores distances in feet and inches. Read values for the class object and add one object of DistM with another object of DistF. Use a friend function for the addition operation and display answer in meter and centimetres.
+
+5.	Write a program in which length is measured in feet and inches. User enters two values of lengths then a menu will be displayed for performing the following operations on it. Use operator overloading for all the functions:
+1.	Add two lengths: + operator
+2.	Compare the lengths using < operator
+3.	Compare the lengths using == operator
+4.	Use *= operator to multiply the length with given integer value
+6.	Write a program to show the use of this pointer. 
+
+7.	Design three classes: Student, Exam and Result. The student class has data members such as roll no, name etc. Create a class Exam by inheriting the Student class. The Exam class adds data members representing the marks scored in six subjects. Derive the Result from class Exam and it has its own members such as total marks. Write an interactive program to model this relationship. What type of inheritance this model belongs to?
+
+8.	Consider an example of book shop which sells books and video tapes. These two classes are inherited from base class called media. The media class has command data members such as title and publication. The book class has data members for storing number of pages in a book and tape class has playing time in a tape. Each class will have member functions such as read () and show (). In the base class, these members have to be defined as virtual functions. Write a program to models the class hierarchy for book shop and processes objects of these classes using pointers to base class. Write the rules of virtual functions.
+
+9.	Create two objects of class string s1and s2 as shown below:
+String S1= "Amity"
+String S2= "University"
+Implement the following operations and write the output of each operation:
+Copy the content of S1 to S3
+Find the substring Univ in S2
+Compare S1 and S2
+10.	Write a program to implement stack functions using templates.
+
+
+## Open ended Question
+
+1.	Write a program that input a file, which determines its length. Also count the number of word occurrence. For example:” that person is going to town to meet other person”. Here “to” and “person”-2times.
+
+2.	Write a program to demonstrate exception handling.
+
+3.	Write a program to implement a singleton class.
